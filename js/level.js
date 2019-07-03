@@ -40,7 +40,7 @@
   }
 
   function endGame() {
-    var screen = new GameScreen("GAME OVER","(Press (space) to Restart)",
+    var screen = new GameScreen("GAME OVER","Press (space) to Retry",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
                                  });
@@ -49,7 +49,7 @@
 
 
   function winGame() {
-    var screen = new GameScreen("YOU WIN!","( Press (space) to Restart)",
+    var screen = new GameScreen("YOU WIN!","Press (space) to Play Again",
                                  function() {
                                      Game.loadBoard(new GameBoard(1));
                                  });

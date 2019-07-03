@@ -1,0 +1,12 @@
+body {
+ background-image: url("game.jpg");
+ background-color: black;
+}
+#gameboard {
+  background-color: black;
+  margin-top: 100px;
+}
+#game-wrapper {
+  margin:0 auto;
+  width: 500px;
+}
