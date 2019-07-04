@@ -1,2 +1,2 @@
-# alienator
+# Alienator :alien:
 👾  play alien game
